@@ -28,6 +28,61 @@ public class FundamentosJava {
         System.out.println("Salario:" + salario);
         
         System.out.println("----------------------");
+        System.out.println("ESTRUCTURA DE CONTROL - CONDICIONALES");
+        
+        edad = 38;
+        if (edad >=18 ){
+            System.out.println("Es mayor de 18");
+        }
+        if (edad >= 38){
+            System.out.println("No esta en el rango de edad");
+        }
+        else{
+            System.out.println("Es menor de 18");
+        }
+        
+        System.out.println("BUCLE FOR");
+        
+        
+        
+        for (int i = 0; i < 10; i++) {
+           System.out.println("Numeros:" + i);  
+        }
+{
+            for (int i = 1; i <= 5; i++) {
+                System.out.println("Numeros:" + i);
+                
+    }
+        }
+        
+        System.out.println("-------------");
+        
+        int [] numeros = {1,2,3,4,5};
+        for (int j=0 ; j < numeros.length; j ++){
+        System.out.println("Elemento" + j + ": " + numeros[j]);
+    }
+        
+        System.out.println("-----------");
+        System.out.println("BUCLE WHILE");
+        
+        int contador = 1 ;
+        while (contador <= 5){
+            System.out.println("Numeros:" + contador);
+            contador ++ ;
+        }{
+        System.out.println("----------");
+        System.out.println("WHILE ARREGLO");
+        
+        
+        
+        
+        
+       
+        while (contador < numeros.length) {
+           System.out.println("Numeros: " + contador + ": " + numeros [contador]);
+           contador++;
+        }
+        
     }
     
 }
